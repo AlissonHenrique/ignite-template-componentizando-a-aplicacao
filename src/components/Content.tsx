@@ -50,7 +50,7 @@ export function Content({ propSelectedGenreId }: Props) {
         <div className="movies-list">
           {movies.map((movie) => (
             <MovieCard
-              key={Math.floor(Math.random() * 100)}
+              key={Math.floor(Math.random() * 1000)}
               title={movie.Title}
               poster={movie.Poster}
               runtime={movie.Runtime}
